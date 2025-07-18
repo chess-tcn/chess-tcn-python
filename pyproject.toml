@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chess-tcn"
+version = "1.0.1"
+description = "Encode and decode TCN, a move format used by Chess.com's API"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "chess-tcn" }]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+dependencies = ["chess"]
+
+[project.urls]
+"Homepage" = "https://github.com/chess-tcn/chess-tcn-python"
+"Source" = "https://github.com/chess-tcn/chess-tcn-python/"
